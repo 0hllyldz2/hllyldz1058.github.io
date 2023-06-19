@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="buttons.css">
+    <link rel="stylesheet" href="styles2.css">
+</head>
+<body id="body"> 
+
+    <header class="main-header">
+        <div class="main-div">
+            <a href="index.html" class="main-header__logo">
+                <img src="Logo.png" alt="Türk Hava Yolları">
+                <h2 style="text-decoration: none">TURKISH AIRLINES</h2>
+            </a>
+        </div>
+        <nav class="main-nav">
+            <ul class="main-nav__items">
+                <li class="main-nav__item">
+                    <a href="iletisim.html">İletişim</a>
+                </li>
+                <li class="main-nav__item main-nav__item--login">
+                    <a class="btn btn-secondary" href="#">Giriş Yap</a>
+                </li>
+            </ul>
+        </nav>
+    </header>    
+
+    <main>
+        <section>
+            <div class="main-form">
+                <form id="contact" action="" method="">
+                    <h2>Öneri Sayfası</h2>
+                    <div class="form-control">
+                        <input placeholder="Adınız Soyadınız" type="text" required autofocus>
+                    </div>
+                    <div class="form-control">
+                        <input placeholder="E-Posta Adresiniz" type="email" required>
+                    </div>
+                    <div class="form-control">
+                        <input placeholder="Konu" type="text" required>
+                    </div>
+                    <div class="form-control">
+                        <textarea placeholder="Lütfen Mesajınızı Buraya Yazın.." required></textarea>
+                    </div>
+                    <div class="form-control">
+                        <button name="submit" type="submit" id="submit">GÖNDER</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <section id="iletisim">
+            <h1 >
+                Bize Ulaşın
+            </h1>
+            <h2>
+                Türk Hava Yolları A.O. Genel Müdürlük
+            </h2>
+            <p>
+                Türk Hava Yolları Genel Yönetim Binası, Atatürk Havalimanı, Yeşilköy, 34149 İstanbul Türkiye       
+            </p>
+            <p>
+                Telefon: +90 212 463 63 63
+            </p>
+            <p>
+                Faks: +90 212 465 21 21
+            </p>
+        </section>
+    </main>
+
+    <a href="#body" id="backtotop">
+        <i class="fas fa-chevron-circle-up"></i>
+    </a>
+
+</body>
+</html>
